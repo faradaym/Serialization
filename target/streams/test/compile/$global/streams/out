@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:8:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(x) == "\"peep\"", "strings")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:9:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(y) == "3.0", "nums")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:10:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(z) == "\"r\"", "chars")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:14:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(lst) == "[ 1.3, 2.4 ]", "homogeneous list")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:28:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(x) == "peep", "strings")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:29:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(y) == "3.0", "nums")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:30:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(z) == "r", "chars")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:34:12: not found: value convertToJson[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(lst) == "<ol><li>1.3</li><li>2.4</li></ol>", "homogeneous list")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
