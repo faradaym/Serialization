@@ -1,4 +1,5 @@
 import org.scalatest._
+import Serialize._
 
 class JsonTest extends FlatSpec{
   "Jsonable" should "serialize scalars to nums or strings" in{
@@ -11,12 +12,12 @@ class JsonTest extends FlatSpec{
   }
   it should "serialize linear collections to arrays" in {
     val lst = 1.3 :: 2.4 ::  Nil
-    assert(convertToJson(lst) == "[ 1.3, 2.4 ]", "homogeneous list")
+    assert(convertToJson(lst) == "[1.3, 2.4]", "homogeneous list")
 
   }
-  it should "serialize associative collections to objects" in {
-
-  }
+//  it should "serialize associative collections to objects" in {
+//
+//  }
 
 }
 
@@ -33,7 +34,7 @@ class HtmlTest extends FlatSpec{
     val lst = 1.3 :: 2.4 ::  Nil
     assert(convertToHtml(lst) == "<ol><li>1.3</li><li>2.4</li></ol>", "homogeneous list")
   }
-  it should "serialize associative collections to definition lists" in{
-
-  }
+//  it should "serialize associative collections to definition lists" in{
+//
+//  }
 }
