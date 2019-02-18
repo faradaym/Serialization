@@ -1,0 +1,81 @@
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$Serialable$ has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SerialableNum,[Implicit]), UsedName(SerialableChar,[Implicit]), UsedName(serializeList,[Implicit]), UsedName(SerialableStr,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$Serialable$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$Serialable$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of Serialize$Serialable$ are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HtmlTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$Serialable$SerialableStr$ has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SerialableStr,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$Serialable$SerialableStr$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$Serialable$SerialableStr$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of Serialize$Serialable$SerialableStr$ are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HtmlTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$Serialable$SerialableChar$ has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SerialableChar,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$Serialable$SerialableChar$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$Serialable$SerialableChar$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of Serialize$Serialable$SerialableChar$ are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HtmlTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$Serialable$SerialableNum$ has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SerialableNum,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$Serialable$SerialableNum$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$Serialable$SerialableNum$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of Serialize$Serialable$SerialableNum$ are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HtmlTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(convertToHtml,[Default]), UsedName(JSON,[Default]), UsedName(HTML,[Default]), UsedName(Serialable,[Default]), UsedName(convertToJson,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of JsonTest: Set(UsedName(Serialable,[Default]), UsedName(convertToJson,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of HtmlTest: Set(UsedName(convertToHtml,[Default]), UsedName(Serialable,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Serialize$Serialable has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SerialableNum,[Implicit]), UsedName(SerialableChar,[Implicit]), UsedName(serializeList,[Implicit]), UsedName(SerialableStr,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Serialize$Serialable: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Serialize$Serialable.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of Serialize$Serialable are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HtmlTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(Serialize$Serialable$,ModifiedNames(changes = UsedName(hashCode,[Default]), UsedName(SerialableNum,[Implicit]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(wait,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(serialize,[Default]), UsedName(SerialableChar,[Implicit]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(serializeList,[Implicit]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(Serialable,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName($asInstanceOf,[Default]), UsedName(SerialableStr,[Implicit]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]))), NamesChange(Serialize$Serialable$SerialableStr$,ModifiedNames(changes = UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(wait,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(serialize,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName($asInstanceOf,[Default]), UsedName(SerialableStr,[Implicit]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]))), NamesChange(Serialize$Serialable$SerialableChar$,ModifiedNames(changes = UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(wait,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(serialize,[Default]), UsedName(SerialableChar,[Implicit]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName($asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]))), NamesChange(Serialize$Serialable$SerialableNum$,ModifiedNames(changes = UsedName(hashCode,[Default]), UsedName(SerialableNum,[Implicit]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(wait,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(serialize,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName($asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]))), NamesChange(Serialize$,ModifiedNames(changes = UsedName(convertToHtml,[Default]), UsedName(JSON,[Default]), UsedName(HTML,[Default]), UsedName(Serialable,[Default]), UsedName(convertToJson,[Default]))), NamesChange(Serialize$Serialable,ModifiedNames(changes = UsedName(hashCode,[Default]), UsedName(SerialableNum,[Implicit]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(wait,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(serialize,[Default]), UsedName(SerialableChar,[Implicit]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(serializeList,[Implicit]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(Serialable,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName($asInstanceOf,[Default]), UsedName(SerialableStr,[Implicit]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(JsonTest, HtmlTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(JsonTest, HtmlTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\Owner\IdeaProjects\Serialization\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6d8e2004 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes;C:\Users\Owner\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Owner\IdeaProjects\Serialization\target\scala-2.12\test-classes;C:\Users\Owner\IdeaProjects\Serialization\target\scala-2.12\classes;C:\Users\Owner\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.5.jar;C:\Users\Owner\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\Owner\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar;C:\Users\Owner\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.70377934 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

@@ -9,32 +9,53 @@ object Serialize extends App {
     final case class Lst(items: List[Serial]) extends Serial
   }
 
-  trait Serialable[A]{
+  trait JSON[A]{
     def serialize(a: A): String
   }
-  object Serialable{
-    implicit object SerialableNum extends Serialable[Double]{
+  object JSON{
+    implicit object JSONNum extends JSON[Double]{
       def serialize(a: Double) = a.toString
     }
-    implicit object SerialableStr extends Serialable[String]{
+    implicit object JSONStr extends JSON[String]{
       def serialize(a: String) =   "\"" + a + "\""
     }
-    implicit object SerialableChar extends Serialable[Char]{
+    implicit object JSONChar extends JSON[Char]{
       def serialize(a: Char)= "\"" + a.toString + "\""
     }
-    implicit def serializeList[A: Serialable]: Serialable[List[A]]= new Serialable[List[A]]{
+    implicit def serializeList[A: JSON]: JSON[List[A]]= new JSON[List[A]]{
       def serialize(lst: List[A]) = {
-        val a = lst.map(implicitly[Serialable[A]].serialize)
+        val a = lst.map(implicitly[JSON[A]].serialize)
         a.mkString("[", ", ", "]")
       }
     }
   }
 
-  def convertToJson[A: Serialable](x: A): String = {
-    implicitly[Serialable[A]].serialize(x)
+  trait HTML[A]{
+    def serialize(a: A): String
   }
-  def convertToHtml[A: Serialable](x: A): String = {
-    ???
+  object HTML{
+    implicit object HTMLNum extends HTML[Double]{
+      def serialize(a: Double) = a.toString
+    }
+    implicit object HTMLStr extends HTML[String]{
+      def serialize(a: String) = a.toString
+    }
+    implicit object HTMLChar extends HTML[Char]{
+      def serialize(a: Char)= a.toString
+    }
+    implicit def serializeList[A: HTML]: HTML[List[A]]= new HTML[List[A]]{
+      def serialize(lst: List[A]) = {
+        val a = lst.map(implicitly[HTML[A]].serialize)
+        a.map("<li>" + _ + "</li>").mkString("<ol>", "", "</ol>")
+      }
+    }
+  }
+
+  def convertToJson[A: JSON](x: A): String = {
+    implicitly[JSON[A]].serialize(x)
+  }
+  def convertToHtml[A: HTML](x: A): String = {
+    implicitly[HTML[A]].serialize(x)
   }
 
 }

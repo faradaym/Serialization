@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mJsonTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJsonable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize scalars to nums or strings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize linear collections to arrays[0m[0m

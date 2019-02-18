@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mHtmlTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHtmlable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize scalars to text[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize linear collections to ordered lists[0m[0m
