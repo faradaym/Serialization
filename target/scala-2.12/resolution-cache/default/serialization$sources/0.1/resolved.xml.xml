@@ -4,7 +4,7 @@
 		module="serialization$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190217155408"
+		publication="20190219141800"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

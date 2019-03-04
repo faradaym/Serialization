@@ -1,25 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:9:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToJson(x) == "\"peep\"", "strings")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:10:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToJson(y) == "3.0", "nums")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:11:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToJson(z) == "\"r\"", "chars")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:15:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToJson(lst) == "[ 1.3, 2.4 ]", "homogeneous list")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:29:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToHtml(x) == "peep", "strings")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:30:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToHtml(y) == "3.0", "nums")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:31:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToHtml(z) == "r", "chars")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:35:11: Serialize.Serial and String are unrelated: they will most likely never compare equal[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert(convertToHtml(lst) == "<ol><li>1.3</li><li>2.4</li></ol>", "homogeneous list")[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Owner\IdeaProjects\Serialization\src\test\scala\SerializeTest.scala:17:25: could not find implicit value for evidence parameter of type Serialize.JSON[List[Any]][0m
+[0m[[0m[31merror[0m] [0m[0m    assert(convertToJson(lst2) == "['PEEEEEEP', 87]", "heterogeneous list")[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

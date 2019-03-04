@@ -1,4 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mJsonTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mJsonable[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should serialize scalars to nums or strings[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize linear collections to arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should serialize linear collections to arrays *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "[[1.3, 2.4]]" did not equal "[['PEEEEEEP', 87]]" heterogeneous list (SerializeTest.scala:16)[0m[0m

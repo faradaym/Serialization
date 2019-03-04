@@ -12,12 +12,14 @@ class JsonTest extends FlatSpec{
   }
   it should "serialize linear collections to arrays" in {
     val lst = 1.3 :: 2.4 ::  Nil
+    val lst2 = "PEEEEEEP" :: 87 ::  Nil
     assert(convertToJson(lst) == "[1.3, 2.4]", "homogeneous list")
 
   }
-//  it should "serialize associative collections to objects" in {
-//
-//  }
+  it should "serialize associative collections to objects" in {
+    val mep = Map("yeehaw" -> 1.3, "sleurp" -> 24.7)
+    assert(convertToJson(mep) == "", "homogeneous map" )
+  }
 
 }
 

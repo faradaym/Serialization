@@ -7,6 +7,7 @@ object Serialize extends App {
     final case class Str(s: String) extends Serial
     final case class Chr(c: Char) extends Serial
     final case class Lst(items: List[Serial]) extends Serial
+    final case class Mp(items: Map[Serial, Serial]) extends Serial
   }
 
   trait JSON[A]{
@@ -26,6 +27,12 @@ object Serialize extends App {
       def serialize(lst: List[A]) = {
         val a = lst.map(implicitly[JSON[A]].serialize)
         a.mkString("[", ", ", "]")
+      }
+    }
+    implicit def serializeMap[A: JSON]: JSON[Map[A, A]]= new JSON[Map[A,A]]{
+      def serialize(mp: Map[A, A]) ={
+        val a = mp.map(kv => (implicitly[JSON[A]].serialize(kv._1), implicitly[JSON[A]].serialize(kv._2)) )
+        a.mkString("")
       }
     }
   }
@@ -57,5 +64,8 @@ object Serialize extends App {
   def convertToHtml[A: HTML](x: A): String = {
     implicitly[HTML[A]].serialize(x)
   }
+
+  val teeest = Map("peep" -> 3, "mewp" -> 6, "guegle" -> 22)
+  print(convertToJson(teeest))
 
 }
