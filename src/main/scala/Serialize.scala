@@ -29,9 +29,9 @@ object Serialize extends App {
         a.mkString("[", ", ", "]")
       }
     }
-    implicit def serializeMap[A: JSON]: JSON[Map[A, A]]= new JSON[Map[A,A]]{
-      def serialize(mp: Map[A, A]) ={
-        val a = mp.map(kv => (implicitly[JSON[A]].serialize(kv._1), implicitly[JSON[A]].serialize(kv._2)) )
+    implicit def serializeMap[A: JSON, B: JSON]: JSON[Map[A, B]]= new JSON[Map[A,B]]{
+      def serialize(mp: Map[A, B]) ={
+        val a = mp.map(kv => (implicitly[JSON[A]].serialize(kv._1), implicitly[JSON[B]].serialize(kv._2)) )
         a.mkString("")
       }
     }
